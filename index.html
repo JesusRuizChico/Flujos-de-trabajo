@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Juan Digital | Agencia de Desarrollo Web & Software</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <a href="#" class="brand-logo">
+                <span class="logo-dot"></span> San Juan <span class="text-gradient">Digital</span>
+            </a>
+            <button class="mobile-menu-toggle" aria-label="Abrir menú">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                    <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                    <li><a href="#catalogo" class="nav-link">Soluciones SaaS</a></li>
+                    <li><a href="#contacto" class="nav-link btn-nav">Cotizar Proyecto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero-section">
+            <div class="hero-background"></div>
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <span class="badge">Agencia de Desarrollo Web Premium</span>
+                    <h1>Construimos arquitecturas digitales <span class="text-gradient">escalables</span></h1>
+                    <p>Diseñamos sistemas modulares, plataformas e-commerce de alto rendimiento y soluciones SaaS a la medida para empresas digitales.</p>
+                    <div class="hero-actions">
+                        <a href="#catalogo" class="btn btn-primary">Explorar Catálogo</a>
+                        <a href="#contacto" class="btn btn-secondary">Hablar con un Experto</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="tech-card-mockup">
+                        <div class="mockup-header"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+                        <pre><code><span class="code-keyword">const</span> agency = <span class="code-string">"San Juan Digital"</span>;<br><span class="code-keyword">export default</span> function <span class="code-fn">init</span>() {<br>&nbsp;&nbsp;return <span class="code-string">'Escalabilidad Garantizada'</span>;<br>}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="catalogo" class="catalog-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Nuestras Soluciones Modulares</h2>
+                    <p>Sistemas listos para su despliegue con integración continua y optimización SEO nativa.</p>
+                </div>
+                <div id="dynamic-product-grid" class="products-grid"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 San Juan Digital S.A. de C.V. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
